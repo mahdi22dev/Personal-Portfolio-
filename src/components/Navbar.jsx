@@ -2,9 +2,9 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import { links } from "@/lib/data";
 import Link from "next/link";
 import clsx from "clsx";
+import { links } from "@/config/data";
 
 const Navbar = () => {
   return (
@@ -26,17 +26,17 @@ const Navbar = () => {
             >
               <Link
                 className={clsx(
-                  "flex w-full items-center justify-center px-3 py-3 hover:text-gray-950 transition dark:text-gray-500 dark:hover:text-gray-300",
-                  {
-                    "text-gray-950 dark:text-gray-200":
-                      activeSection === link.name,
-                  }
+                  "flex w-full items-center justify-center px-3 py-3 hover:text-gray-950 transition dark:text-gray-500 dark:hover:text-gray-300"
+                  // {
+                  //   "text-gray-950 dark:text-gray-200":
+                  //     activeSection === link.name,
+                  // }
                 )}
                 href={link.hash}
               >
                 {link.name}
 
-                {link.name === activeSection && (
+                {link.name === "1" && (
                   <motion.span
                     className='bg-gray-100 rounded-full absolute inset-0 -z-10 dark:bg-gray-800'
                     layoutId='activeSection'
