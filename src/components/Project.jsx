@@ -12,6 +12,7 @@ export default function Project({ title, description, tags, imageUrl }) {
   });
   const scaleProgess = useTransform(scrollYProgress, [0, 1], [0.8, 1]);
   const opacityProgess = useTransform(scrollYProgress, [0, 1], [0.6, 1]);
+  console.log(scaleProgess);
 
   return (
     <motion.div
