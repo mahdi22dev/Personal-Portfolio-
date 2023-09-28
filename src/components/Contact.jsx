@@ -51,7 +51,6 @@ export default function Contact() {
             toast.error(error);
             return;
           }
-
           toast.success("Email sent successfully!");
           setSender("");
           setMessage("");
