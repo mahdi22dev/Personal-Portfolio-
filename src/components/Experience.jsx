@@ -8,7 +8,7 @@ import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
-import { FaReact } from "react-icons/fa";
+
 export default function Experience() {
   const { ref } = useSectionInView("Experience");
   const theme = "lirgght";
@@ -22,7 +22,6 @@ export default function Experience() {
             <VerticalTimelineElement
               contentStyle={{
                 visibility: "visible",
-
                 background:
                   theme === "light" ? "#f3f4f6" : "rgba(255, 255, 255, 0.05)",
                 boxShadow: "none",
@@ -38,7 +37,7 @@ export default function Experience() {
                 zIndex: "2222",
               }}
               date={item.date}
-              icon={<FaReact />}
+              icon={item.icon}
               iconStyle={{
                 background:
                   theme === "light" ? "white" : "rgba(255, 255, 255, 0.15)",
