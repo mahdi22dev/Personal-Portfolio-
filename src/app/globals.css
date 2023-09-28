@@ -3,13 +3,16 @@
 @tailwind utilities;
 
 html {
-  --line-color: #e5e7eb;
+  --line-color: rgb(249, 250, 251);
 }
 
 html.dark {
-  --line-color: rgba(255, 255, 255, 0.2);
+  --line-color: rgb(249 250 251);
 }
 
 .borderBlack {
   @apply border border-black/10;
+}
+.line-color {
+  color: red;
 }
