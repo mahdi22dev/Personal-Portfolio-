@@ -2,6 +2,7 @@ import Navbar from "@/components/Navbar";
 import "./globals.css";
 import { Inter } from "next/font/google";
 import ActiveSectionContextProvider from "@/context/context";
+import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -20,6 +21,7 @@ export default function RootLayout({ children }) {
         <ActiveSectionContextProvider>
           <Navbar />
           {children}
+          <Footer />
         </ActiveSectionContextProvider>
       </body>
     </html>
