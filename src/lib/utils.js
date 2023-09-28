@@ -9,7 +9,7 @@ export const validateString = (value, maxLength) => {
 export const getErrorMessage = (error) => {
   let message;
 
-  if (error instanceof Error) {
+  if (error) {
     message = error.message;
   } else if (error && typeof error === "object" && "message" in error) {
     message = String(error.message);
