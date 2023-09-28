@@ -44,7 +44,6 @@ export default function Contact() {
         className='mt-10 flex flex-col dark:text-black'
         // onSubmit={handleSumbit}
         action={async () => {
-          console.log(sender, message);
           const formData = { sender, message };
           const { data, error } = await sendEmail(formData);
 
@@ -54,6 +53,8 @@ export default function Contact() {
           }
 
           toast.success("Email sent successfully!");
+          setSender("");
+          setMessage("");
         }}
       >
         <input
