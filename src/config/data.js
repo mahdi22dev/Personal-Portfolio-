@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+import MoviePlot from "@/public/movie.png";
 
 export const links = [
   {
@@ -62,11 +63,11 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Plot Words Game",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "I enjoy watching movies, so I decided to include this sample project It's a game where the player guesses the movie based on plot keywords.",
+    tags: ["React", "framer motion"],
+    imageUrl: MoviePlot,
   },
   {
     title: "rmtDev",
