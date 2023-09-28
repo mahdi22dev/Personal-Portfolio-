@@ -5,7 +5,7 @@ import Link from "next/link";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
-const Intro = () => {
+export default function Intro() {
   const { ref } = useSectionInView("Home");
   return (
     <section
@@ -74,6 +74,4 @@ const Intro = () => {
       </motion.div>
     </section>
   );
-};
-
-export default Intro;
+}
