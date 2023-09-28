@@ -13,20 +13,6 @@ export default function Contact() {
   const [sender, setSender] = useState("");
   const [message, setMessage] = useState("");
 
-  const handleSumbit = async (e) => {
-    e.preventDefault(); // Prevent the default form submission
-    console.log(sender, message);
-    const formData = { sender, message };
-    const { data, error } = await sendEmail(formData);
-
-    if (error) {
-      toast.error(error);
-      return;
-    }
-
-    toast.success("Email sent successfully!");
-  };
-
   return (
     <motion.section
       id='contact'
