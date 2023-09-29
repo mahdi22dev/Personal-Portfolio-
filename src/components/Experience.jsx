@@ -8,10 +8,11 @@ import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
+import { useTheme } from "@/context/theme-switch";
 
 export default function Experience() {
   const { ref } = useSectionInView("Experience");
-  const theme = "lirgght";
+  const { theme } = useTheme();
 
   return (
     <section id='experience' ref={ref} className='scroll-mt-28 mb-28 sm:mb-40'>
