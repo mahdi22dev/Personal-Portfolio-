@@ -16,7 +16,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang='en' className='!scroll-smooth'>
+    // add tailwind dark mode
+    <html lang='en' className='!scroll-smooth dark'>
       <body
         className={`${inter.className} bg-gray-50 text-gray-950 relative pt-20 sm:pt-28 dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90`}
       >
@@ -25,7 +26,7 @@ export default function RootLayout({ children }) {
         <ActiveSectionContextProvider>
           <ThemeContextProvider>
             <Toaster position='top-right' />
-            <ThemeSwitch />
+            {/* <ThemeSwitch /> */}
             <Navbar />
             {children}
             <Footer />

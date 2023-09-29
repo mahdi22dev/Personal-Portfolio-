@@ -3,8 +3,17 @@
 import { useRef } from "react";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
+import { FaGithubSquare } from "react-icons/fa";
+import { IoEye } from "react-icons/io5";
 
-export default function Project({ title, description, tags, imageUrl }) {
+export default function Project({
+  title,
+  description,
+  tags,
+  imageUrl,
+  previewLink,
+  sourceLink,
+}) {
   const ref = useRef(null);
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -39,11 +48,22 @@ export default function Project({ title, description, tags, imageUrl }) {
             ))}
           </ul>
           <div className='flex gap-4 mt-4 sm:mt-auto'>
-            <a href='/' className=''>
-              live preview{" "}
+            <a
+              href={previewLink}
+              className='flex justify-center items-center gap-1 mt-4 group bg-gray-900 text-white px-7 py-1  rounded-full outline-none hover:bg-gray-950  transition'
+              target='_blank'
+            >
+              <IoEye />
+              <span>Preview</span>
             </a>
-            <a href='/' className=''>
-              github source
+
+            <a
+              href={sourceLink}
+              className='flex justify-center items-center gap-1 mt-4 group bg-gray-900 text-white px-7 py-3  rounded-full outline-none hover:bg-gray-950 transition'
+              target='_blank'
+            >
+              <FaGithubSquare />
+              <span>Source</span>
             </a>
           </div>
         </div>
