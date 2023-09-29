@@ -47,10 +47,10 @@ export default function Project({
               </li>
             ))}
           </ul>
-          <div className='flex gap-4 mt-4 sm:mt-auto'>
+          <div className='flex gap-2 mt-4 sm:mt-auto justify-start w-full'>
             <a
               href={previewLink}
-              className='flex justify-center items-center gap-1 mt-4 group bg-gray-900 text-white px-7 py-1  rounded-full outline-none hover:bg-gray-950  transition'
+              className='flex justify-center items-center gap-1 mt-4 group bg-gray-900 text-white px-7 py-1  rounded-full outline-none hover:bg-gray-950 dark:bg-white dark:bg-opacity-10 dark:hover:bg-opacity-25 transition'
               target='_blank'
             >
               <IoEye />
@@ -59,7 +59,7 @@ export default function Project({
 
             <a
               href={sourceLink}
-              className='flex justify-center items-center gap-1 mt-4 group bg-gray-900 text-white px-7 py-3  rounded-full outline-none hover:bg-gray-950 transition'
+              className='flex justify-center items-center gap-1 mt-4 group bg-gray-900 text-white px-7 py-3  rounded-full outline-none hover:bg-gray-950 dark:bg-white dark:bg-opacity-10 dark:hover:bg-opacity-25 transition'
               target='_blank'
             >
               <FaGithubSquare />

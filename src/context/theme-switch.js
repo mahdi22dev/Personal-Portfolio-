@@ -25,8 +25,8 @@ export default function ThemeContextProvider({ children }) {
     if (localTheme) {
       setTheme(localTheme);
 
-      if (localTheme === "dark") {
-        document.documentElement.classList.add("dark");
+      if (localTheme === "light") {
+        document.documentElement.classList.remove("dark");
       }
     } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
       setTheme("dark");

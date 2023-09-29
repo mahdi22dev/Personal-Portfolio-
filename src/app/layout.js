@@ -1,8 +1,6 @@
-import Navbar from "@/components/Navbar";
 import "./globals.css";
 import { Inter } from "next/font/google";
 import ActiveSectionContextProvider from "@/context/context";
-import Footer from "@/components/Footer";
 import { Toaster } from "react-hot-toast";
 import ThemeSwitch from "@/components/ThemeSwitch";
 import ThemeContextProvider from "@/context/theme-switch";
@@ -27,9 +25,7 @@ export default function RootLayout({ children }) {
           <ThemeContextProvider>
             <Toaster position='top-right' />
             <ThemeSwitch />
-            <Navbar />
             {children}
-            <Footer />
           </ThemeContextProvider>
         </ActiveSectionContextProvider>
       </body>

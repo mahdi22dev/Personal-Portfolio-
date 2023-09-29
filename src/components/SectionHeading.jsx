@@ -2,7 +2,7 @@ import React from "react";
 
 export default function SectionHeading({ children }) {
   return (
-    <h2 className='text-3xl font-medium capitalize mb-8 text-center'>
+    <h2 className='text-4xl font-bold capitalize mb-10 text-center'>
       {children}
     </h2>
   );
