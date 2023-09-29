@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
         <ActiveSectionContextProvider>
           <ThemeContextProvider>
             <Toaster position='top-right' />
-            {/* <ThemeSwitch /> */}
+            <ThemeSwitch />
             <Navbar />
             {children}
             <Footer />

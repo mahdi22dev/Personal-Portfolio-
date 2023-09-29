@@ -12,9 +12,7 @@ import { useTheme } from "@/context/theme-switch";
 
 export default function Experience() {
   const { ref } = useSectionInView("Experience");
-  // fixing slow load
-  // const { theme } = useTheme(); and just prefeing dark mode
-  const theme = "dark";
+  const { theme } = useTheme();
 
   return (
     <section id='experience' ref={ref} className='scroll-mt-28 mb-28 sm:mb-40'>
