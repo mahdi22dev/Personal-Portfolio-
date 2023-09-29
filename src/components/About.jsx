@@ -17,31 +17,28 @@ export default function About() {
       ref={ref}
     >
       <SectionHeading>About me</SectionHeading>
-      <p className='mb-3'>
-        After graduating with a degree in{" "}
-        <span className='font-medium'>Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className='font-medium'>full-stack web development</span>.{" "}
-        <span className='italic'>My favorite part of programming</span> is the
-        problem-solving aspect. I <span className='underline'>love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className='font-medium'>
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className='font-medium'>full-time position</span> as a software
-        developer.
-      </p>
-
-      <p>
-        <span className='italic'>When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className='font-medium'>learning new things</span>. I am currently
-        learning about{" "}
-        <span className='font-medium'>history and philosophy</span>. I'm also
-        learning how to play the guitar.
+      <p className='mb-3 font-normal'>
+        My first time having a <span className='font-bold'> PC </span>was in
+        2019 the same year I learned the basics of{" "}
+        <span className='font-bold'> C# </span> I was building cool tools for my
+        friends, but my passion died afterward, so I decided after 3 years to
+        continue my passion for programming now with the{" "}
+        <span className='font-medium'> javascript </span> world. My favorite
+        part of <span className='font-medium'> programming </span>
+        is the problem-solving aspect. I love the feeling of finally figuring
+        out a solution to a problem. My core stack is{" "}
+        <span className='font-bold'>React</span>,{" "}
+        <span className='font-bold'>Next.js</span> , and{" "}
+        <span className='font-bold'>MongoDB</span> . I am also familiar with{" "}
+        <span className='font-normal'>ORMs</span> like{" "}
+        <span className='font-bold'>Prisma</span> and{" "}
+        <span className='font-bold'>Mongoose</span> . I am always looking to
+        learn new technologies. When I'm not coding, I enjoy playing video games
+        and watching movies. I also enjoy learning new things and{" "}
+        <span className='font-medium underline underline-offset-4	'>
+          my goal
+        </span>{" "}
+        is to achieve great success in Programming.
       </p>
     </motion.section>
   );
