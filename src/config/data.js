@@ -57,7 +57,7 @@ export const projectsData = [
   {
     title: "Uploadupia",
     description:
-      " Anonymous file uploader where users can upload files and share them with a link and wesbite have a blog section too i manage it's content with contenful.",
+      " Anonymous file uploader where users can upload files and share them with a link and the wesbite have a blog section.",
     tags: ["React", "Framer motion", "Contenful", "Next.js"],
     imageUrl: fileupload,
     previewLink: "https://file-uploader-project.vercel.app",
