@@ -10,7 +10,7 @@ export default function Intro() {
   return (
     <section
       id='home'
-      className='mb-44 max-w-[50rem] text-center sm:mb-0 scroll-mt-[130rem]'
+      className='mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[130rem]'
       ref={ref}
     >
       <div className='relative h-24 w-24'></div>
