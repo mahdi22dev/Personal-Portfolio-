@@ -24,7 +24,6 @@ export default function ThemeContextProvider({ children }) {
 
     if (localTheme) {
       setTheme(localTheme);
-      console.log(localTheme);
 
       if (localTheme === "dark") {
         document.documentElement.classList.add("dark");
