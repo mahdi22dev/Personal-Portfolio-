@@ -1,10 +1,8 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import rmtdevImg from "@/public/rmtdev.png";
 import fileupload from "@/public/file.png";
 import MoviePlot from "@/public/movie.png";
+import countdown from "@/public/countdown.png";
 
 export const links = [
   {
@@ -57,11 +55,20 @@ export const projectsData = [
   {
     title: "Uploadupia",
     description:
-      " Anonymous file uploader where users can upload files and share them with a link and the wesbite have a blog section.",
-    tags: ["React", "Framer motion", "Contenful", "Next.js"],
+      "Anonymous file uploader where users can upload files and share them with a link and the wesbite have a blog section.",
+    tags: ["React", "Next.js", "Framer motion", "Contenful", "Firebase"],
     imageUrl: fileupload,
     previewLink: "https://file-uploader-project.vercel.app",
     sourceLink: "https://github.com/mahdi22dev/file_uploader_project",
+  },
+  {
+    title: "Countdown Hub",
+    description:
+      "Users Can create custom countdown, and also count days to thier favorite upcoming show.",
+    tags: ["React", "Next.js", "Prisma", "MongoDb", "daisyui"],
+    imageUrl: countdown,
+    previewLink: "https://countdown-phi-seven.vercel.app/",
+    sourceLink: "https://github.com/mahdi22dev/countdown/",
   },
 ];
 
