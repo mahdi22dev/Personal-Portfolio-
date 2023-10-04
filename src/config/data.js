@@ -55,8 +55,8 @@ export const projectsData = [
   {
     title: "Uploadupia",
     description:
-      "Anonymous file uploader where users can upload files and share them with a link and the wesbite have a blog section.",
-    tags: ["React", "Next.js", "Framer motion", "Contenful"],
+      "Anonymous file uploader where users can upload files and share them and contain a blog section.",
+    tags: ["React", "Next.js", "Framer motion", "Firebase"],
     imageUrl: fileupload,
     previewLink: "https://file-uploader-project.vercel.app",
     sourceLink: "https://github.com/mahdi22dev/file_uploader_project",
@@ -84,4 +84,5 @@ export const skillsData = [
   "Prisma",
   "MongoDB",
   "Framer Motion",
+  "Firebase",
 ];
