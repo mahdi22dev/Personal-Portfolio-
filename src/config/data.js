@@ -3,6 +3,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import fileupload from "@/public/file.png";
 import MoviePlot from "@/public/movie.png";
 import countdown from "@/public/countdown.png";
+import blog from "@/public/blog.png";
 
 export const links = [
   {
@@ -43,6 +44,14 @@ export const experiencesData = [
 ];
 
 export const projectsData = [
+  {
+    title: "Daily Life Blog",
+    description: "I built this blog using Next.js and sanity.io ",
+    tags: ["React", "Framer motion", "Next.js", "Sanity.io"],
+    imageUrl: blog,
+    previewLink: "https://blog-website-m.vercel.app/",
+    sourceLink: "https://github.com/mahdi22dev/Blog",
+  },
   {
     title: "Plot Words Game",
     description:
