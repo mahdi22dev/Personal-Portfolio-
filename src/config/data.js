@@ -94,4 +94,6 @@ export const skillsData = [
   "MongoDB",
   "Framer Motion",
   "Firebase",
+  "MERN",
+  "EXPRESS",
 ];
