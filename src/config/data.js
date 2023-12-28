@@ -64,8 +64,8 @@ export const projectsData = [
   {
     title: "Uploadupia",
     description:
-      "Anonymous file uploader where users can upload files and share them and contain a blog section.",
-    tags: ["React", "Next.js", "Framer motion", "Firebase"],
+      "Anonymous file uploader where users can upload files and share them, i used a fake s3 server localy to manage files",
+    tags: ["React", "Next.js", "Framer motion", "AWS S3"],
     imageUrl: fileupload,
     previewLink: "https://file-uploader-project.vercel.app",
     sourceLink: "https://github.com/mahdi22dev/file_uploader_project",
