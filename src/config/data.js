@@ -1,7 +1,7 @@
 import React from "react";
 import { LuGraduationCap } from "react-icons/lu";
 import fileupload from "@/public/file.png";
-import MoviePlot from "@/public/movie.png";
+// import MoviePlot from "@/public/movie.png";
 import countdown from "@/public/countdown.png";
 import blog from "@/public/blog.png";
 import starterpedia from "@/public/starterpedia.png";
