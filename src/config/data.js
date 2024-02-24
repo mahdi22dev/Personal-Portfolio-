@@ -4,7 +4,7 @@ import fileupload from "@/public/file.png";
 import MoviePlot from "@/public/movie.png";
 import countdown from "@/public/countdown.png";
 import blog from "@/public/blog.png";
-
+import starterpedia from "@/public/starterpedia.png";
 export const links = [
   {
     name: "Home",
@@ -45,6 +45,22 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Starterpedia",
+    description:
+      "Starterpedia is a platform where users can share useful resource links with the community.",
+    tags: [
+      "React",
+      "Framer motion",
+      "Next js",
+      "shadcn ui",
+      "PostgreSQL",
+      "Redux",
+    ],
+    imageUrl: starterpedia,
+    previewLink: "https://vercel.com/idrissimahdi2020-gmailcom",
+    sourceLink: "",
+  },
+  {
     title: "Daily Life Blog",
     description: "I built this blog using Next.js and sanity.io ",
     tags: ["React", "Framer motion", "Next.js", "Sanity.io"],
@@ -52,15 +68,15 @@ export const projectsData = [
     previewLink: "https://blog-website-m.vercel.app/",
     sourceLink: "https://github.com/mahdi22dev/Blog",
   },
-  {
-    title: "Plot Words Game",
-    description:
-      "I enjoy watching movies, so I decided to include this sample project It's a game where the player guesses the movie based on plot keywords.",
-    tags: ["React", "Framer motion"],
-    imageUrl: MoviePlot,
-    previewLink: "https://movies-game.vercel.app",
-    sourceLink: "https://github.com/mahdi22dev/movies-game",
-  },
+  // {
+  //   title: "Plot Words Game",
+  //   description:
+  //     "I enjoy watching movies, so I decided to include this sample project It's a game where the player guesses the movie based on plot keywords.",
+  //   tags: ["React", "Framer motion"],
+  //   imageUrl: MoviePlot,
+  //   previewLink: "https://movies-game.vercel.app",
+  //   sourceLink: "https://github.com/mahdi22dev/movies-game",
+  // },
   {
     title: "Uploadupia",
     description:
