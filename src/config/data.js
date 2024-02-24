@@ -57,7 +57,7 @@ export const projectsData = [
       "Redux",
     ],
     imageUrl: starterpedia,
-    previewLink: "https://vercel.com/idrissimahdi2020-gmailcom",
+    previewLink: "https://starterpedia.vercel.app/home",
     sourceLink: "",
   },
   {
