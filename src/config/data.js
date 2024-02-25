@@ -48,17 +48,10 @@ export const projectsData = [
     title: "Starterpedia",
     description:
       "Starterpedia is a platform where users can share useful resource links with the community.",
-    tags: [
-      "React",
-      "Framer motion",
-      "Next js",
-      "shadcn ui",
-      "PostgreSQL",
-      "Redux",
-    ],
+    tags: ["Framer motion", "shadcn ui", "PostgreSQL", "Redux"],
     imageUrl: starterpedia,
     previewLink: "https://starterpedia.vercel.app/home",
-    sourceLink: "",
+    sourceLink: "https://github.com/mahdi22dev/",
   },
   {
     title: "Daily Life Blog",
