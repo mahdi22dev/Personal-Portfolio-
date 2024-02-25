@@ -4,7 +4,7 @@ import fileupload from "@/public/file.png";
 // import MoviePlot from "@/public/movie.png";
 import countdown from "@/public/countdown.png";
 import blog from "@/public/blog.png";
-import starterpedia from "@/public/starterpedia.png";
+import starterpedia from "@/public/starterpedia.PNG";
 export const links = [
   {
     name: "Home",
