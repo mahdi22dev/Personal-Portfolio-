@@ -45,6 +45,14 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Phonearmor",
+    description: "Phone cases ecommerce store built with Next Js 14",
+    tags: ["React", "Next.js", "Shadcn ui", "contentful"],
+    imageUrl: fileupload,
+    previewLink: "https://online-store-beige-nine.vercel.app/home",
+    sourceLink: "https://github.com/mahdi22dev/online-store",
+  },
+  {
     title: "Starterpedia",
     description:
       "Starterpedia is a platform where users can share useful resource links with the community.",
@@ -60,24 +68,6 @@ export const projectsData = [
     imageUrl: blog,
     previewLink: "https://blog-website-m.vercel.app/",
     sourceLink: "https://github.com/mahdi22dev/Blog",
-  },
-  // {
-  //   title: "Plot Words Game",
-  //   description:
-  //     "I enjoy watching movies, so I decided to include this sample project It's a game where the player guesses the movie based on plot keywords.",
-  //   tags: ["React", "Framer motion"],
-  //   imageUrl: MoviePlot,
-  //   previewLink: "https://movies-game.vercel.app",
-  //   sourceLink: "https://github.com/mahdi22dev/movies-game",
-  // },
-  {
-    title: "Uploadupia",
-    description:
-      "Anonymous file uploader where users can upload files and share them, i used a fake s3 server localy to manage files",
-    tags: ["React", "Next.js", "Framer motion", "AWS S3"],
-    imageUrl: fileupload,
-    previewLink: "https://file-uploader-project.vercel.app",
-    sourceLink: "https://github.com/mahdi22dev/file_uploader_project",
   },
   {
     title: "Countdown Hub",
